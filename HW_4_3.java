@@ -15,9 +15,8 @@ public class HW_4_3 {
 //        String str = "[a+(1*3))";  //  ложь
 //        String str = "[6+(3*3)]";  //  истина
 //        String str = "{a}[+]{(d*3)}";  //  истина
-//        String str = "<{a}+{(d*3)}>";  //  истина
-        String str = "{a+]}{(d*3)}";  //  ложь
-
+        String str = "<{a}+{(d*3)}>";  //  истина
+ //       String str = "{a+]}{(d*3)}";  //  ложь
 
         String[] arr = str.split("");
         Stack<String> stack = new Stack<>();
